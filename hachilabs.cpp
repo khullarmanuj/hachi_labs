@@ -144,8 +144,13 @@ int main()
     person[5].connectedto[1]=4;
     person[5].noc=2;
     printf("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$\n\n");
-    printf("****************** Welcome to CRUZERS NETWORK *****************************\n\n\n\n");
-    printf("~~~~~~~~~~~~~~~~~~~~~~~~~ LOGIN ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n");
+    printf("****************** Welcome to CRUZERS NETWORK *****************************\n\n\n");
+    printf("To choose a USERNAME & PERSON TO BE SEARCHED\nI've made a network diagram so please refer that and choose any one from that");
+    printf("\nNetwork Diagram shows the connections . Please see it once");
+    printf("\nEg:\nManuj.Khullar\nMayank.shisodia\nJapneet\nBob.Sharma");
+    printf("\nGautam.Kumar\nArjun.Sehgal\nSahil.Garg\nMr.Kumar\n");
+    printf("Based on the connections like direct friend or mutual friends or in connection etc. the information is displayed\n");
+    printf("\n\n~~~~~~~~~~~~~~~~~~~~~~~~~ LOGIN ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n");
     printf("Please Enter The Username: ");
     char username[25];
     int uid;
